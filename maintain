@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-03T04:17:57.891Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="HzxS0jGTs5txB90FDY0u" version="14.8.6" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2021-08-03T04:30:57.958Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="8m5dCd_FcrH9NSnAwVO2" version="14.8.6" type="github" pages="5">
   <diagram id="6dGlSP9AypZYp_pEiEp7" name="main">
-    <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1188" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,6 +31,12 @@
             <mxGeometry x="234" y="310" width="120" height="60" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="0q6Q9CZ9RtGJDJrcZd3l-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fzy5GeJwQQCdyaJ2enVI-5" target="0q6Q9CZ9RtGJDJrcZd3l-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0q6Q9CZ9RtGJDJrcZd3l-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Fzy5GeJwQQCdyaJ2enVI-5" target="0q6Q9CZ9RtGJDJrcZd3l-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <UserObject label="start-service-sk" link="data:page/id,J1LoCyNlEwkDLII9hHWb" id="Fzy5GeJwQQCdyaJ2enVI-5">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
             <mxGeometry x="354" y="430" width="120" height="60" as="geometry" />
@@ -41,6 +47,14 @@
         </mxCell>
         <mxCell id="Fzy5GeJwQQCdyaJ2enVI-6" value="gitlab-cicd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="474" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;語法執行帳號變更密碼&lt;/p&gt;" id="0q6Q9CZ9RtGJDJrcZd3l-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="234" y="540" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="0q6Q9CZ9RtGJDJrcZd3l-2" value="check-maintain-status-sk-Cq" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="540" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -197,6 +211,42 @@
       <root>
         <mxCell id="pho2_vS9bWqiX0k_2MXQ-0" />
         <mxCell id="pho2_vS9bWqiX0k_2MXQ-1" parent="pho2_vS9bWqiX0k_2MXQ-0" />
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pho2_vS9bWqiX0k_2MXQ-1" source="EtHQRPGvk6dfHRNMYTag-1" target="EtHQRPGvk6dfHRNMYTag-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-1" value="開啟 durian-bg 背景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ssh&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;進去&lt;/span&gt;durian&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;背景機並跑&lt;/span&gt;bg_start&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;bg_start&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;：先確認&lt;/span&gt;user&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;是否為&lt;/span&gt;durian&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;，接著透過&lt;/span&gt;ps ax grep _run_bg&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;以及&lt;/span&gt;_run_immediate_message&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;是否啟動&lt;/span&gt;(&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;透過&lt;/span&gt;-z&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;判斷是否為空字串&lt;/span&gt;)&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;，最後透過&lt;/span&gt;nohub&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;持續將&lt;/span&gt;_run_bg&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;寫入到&lt;/span&gt;/home/durian/sk.durian/current/app/logs/bg.log&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;，&lt;/span&gt;&amp;amp;&amp;nbsp;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;把這個程式放在背景執行，持續將&lt;/span&gt;_run_immediate_message&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;寫入到&lt;/span&gt;/home/durian/sk.durian/current/app/logs/immediate_message.log&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="360" y="55" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pho2_vS9bWqiX0k_2MXQ-1" source="EtHQRPGvk6dfHRNMYTag-4" target="EtHQRPGvk6dfHRNMYTag-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-4" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal&quot;&gt;&lt;font face=&quot;pingfang tc&quot;&gt;crontab 開啟&lt;/font&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="200" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-5" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;crontab -i crontab-$date&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;指定crontab為停服務時所備份的版本並取代當前的crontab&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="365" y="210" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="pho2_vS9bWqiX0k_2MXQ-1" source="EtHQRPGvk6dfHRNMYTag-7" target="EtHQRPGvk6dfHRNMYTag-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-7" value="start sk service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-8" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;透過&lt;/span&gt;kubectl apply haprox-stop-config&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;將&lt;/span&gt;whitelist-source-range: &quot;127.0.0.1&quot;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;拿掉&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="365" y="350" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-9" value="開放備用外網ip流量" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="200" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EtHQRPGvk6dfHRNMYTag-10" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;備用外網ip(103.252.156.13)&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;流向：172.26.54.46,172.26.54.47-&amp;gt;172.26.157.123-&amp;gt;103.252.156.13&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="365" y="490" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jh25S6J5rf_fvRJ-1FiQ-0" value="check durian ingress" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pho2_vS9bWqiX0k_2MXQ-1">
+          <mxGeometry x="200" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
