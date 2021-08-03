@@ -1,1 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2021-08-02T23:59:19.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" version="14.8.6" etag="-muVVIX7I4_FJAqXCdca" type="github"><diagram id="6dGlSP9AypZYp_pEiEp7">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-08-03T00:19:11.980Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36 Edg/92.0.902.62" etag="gn0HFP1aCzSpH_m0VIBA" version="14.8.6" type="github" pages="2">
+  <diagram id="6dGlSP9AypZYp_pEiEp7" name="main">
+    <mxGraphModel dx="1426" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="stop-service-sk" link="data:page/id,EZ-yJVy-s2bzyPia2vCW" id="Fzy5GeJwQQCdyaJ2enVI-2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="120" y="80" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Fzy5GeJwQQCdyaJ2enVI-3" value="release_sk_sk_cloud" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzy5GeJwQQCdyaJ2enVI-4" value="RELEASE_sk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzy5GeJwQQCdyaJ2enVI-5" value="start-service-sk" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Fzy5GeJwQQCdyaJ2enVI-6" value="gitlab-cicd" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="EZ-yJVy-s2bzyPia2vCW" name="start-service-sk">
+    <mxGraphModel dx="1426" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="7Fa5BVDuI3mbv9IQ5VK1-0" />
+        <mxCell id="7Fa5BVDuI3mbv9IQ5VK1-1" parent="7Fa5BVDuI3mbv9IQ5VK1-0" />
+        <mxCell id="l41_1opQb7HLKIFZmyiq-0" value="關閉備用外網ip流入" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="200" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l41_1opQb7HLKIFZmyiq-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;只允許&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;pineapple&lt;/span&gt;站&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;OTP&lt;/span&gt;以及正式站客服系統外網&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ip&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;備用外網ip(103.252.156.13)&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;流向：172.26.54.46,172.26.54.47-&amp;gt;172.26.157.123-&amp;gt;103.252.156.13&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="360" y="55" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="l41_1opQb7HLKIFZmyiq-3" value="stop sk service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="200" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l41_1opQb7HLKIFZmyiq-4" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;透過&lt;/span&gt;kubectl apply haprox-stop-config&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;添加&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;whitelist-source-range: &quot;127.0.0.1&quot;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;，只允許本機的連線&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="365" y="210" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="l41_1opQb7HLKIFZmyiq-5" value="停durian-bg 背景" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="200" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="l41_1opQb7HLKIFZmyiq-6" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;ssh&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;進去&lt;/span&gt;durian&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;背景機並跑&lt;/span&gt;bg_stop&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;bg_stop&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;：先確認&lt;/span&gt;user&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;是否為&lt;/span&gt;durian&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;，&lt;/span&gt;&lt;/p&gt;&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;接著將&lt;/span&gt;_run_bg&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;以及&lt;/span&gt;_run_immediate_message&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;這兩個進程&lt;/span&gt;kill&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;#34;pingfang tc&amp;#34;&quot;&gt;掉&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="7Fa5BVDuI3mbv9IQ5VK1-1">
+          <mxGeometry x="365" y="340" width="390" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
